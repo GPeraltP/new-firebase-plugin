@@ -164,16 +164,16 @@
     <header-file src="src/ios/FirebasePlugin.h" />
     <source-file src="src/ios/FirebasePlugin.m" />
 
-	<framework src="Firebase" type="podspec" spec="~> 7.0.0" />
+    <!--<framework src="Firebase" type="podspec" spec="~> 7.0.0" />
     <framework src="FirebaseCore" type="podspec" spec="~> 7.0.0" />
     <framework src="FirebaseCrashlytics" type="podspec" spec="~> 7.0.0" />
     <framework src="FirebaseMessaging" type="podspec" spec="~> 7.0.0" />
     <framework src="FirebaseAuth" type="podspec" spec="~> 7.0.0" />
     <framework src="FirebaseRemoteConfig" type="podspec" spec="~> 7.0.0" />
     <framework src="FirebasePerformance" type="podspec" spec="~> 7.0.0" />
-    <framework src="FirebaseDynamicLinks" type="podspec" spec="~> 7.0.0" />  
+    <framework src="FirebaseDynamicLinks" type="podspec" spec="~> 7.0.0" />  -->
     
-<!--    <podspec>
+    <podspec>
       <config>
         <source url="https://cdn.cocoapods.org/"/>
       </config>
@@ -185,8 +185,9 @@
         <pod name="FirebaseAuth" spec="~> 7.0.0" />
         <pod name="FirebaseRemoteConfig" spec="~>  7.0.0" />
         <pod name="FirebasePerformance" spec="~> 7.0.0" />
+	<pod name="FirebaseDynamicLinks" spec="~> 7.0.0" />
       </pods>
-    </podspec> -->
+    </podspec> 
     
   </platform>
 </plugin>
